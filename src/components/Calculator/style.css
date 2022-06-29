@@ -1,0 +1,30 @@
+.calculator{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+ align-items: center;
+}
+
+.number{
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-column-gap: 10px;
+    
+    
+    
+}
+ .number h3{
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.operation{
+    display: grid;
+    grid-template-rows: 25%;
+    grid-column-gap: 10px;
+  
+}
+.operation h3{
+    padding: 30px;
+    background-color: aquamarine;
+}
