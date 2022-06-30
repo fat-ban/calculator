@@ -1,0 +1,28 @@
+
+
+.number{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+/* .number h3{
+    padding: 30px;
+    background-color: aquamarine;
+}*/
+.number h3{
+    padding: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.number .buttonNumb{
+    padding: 30px;
+    background-color: aquamarine;
+}
+.number .buttonZero{
+    /*grid*/
+    padding: 30px;
+    background-color: aquamarine;
+}

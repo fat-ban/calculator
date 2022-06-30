@@ -1,0 +1,21 @@
+.operation{
+    /*display: grid;
+    grid-template-rows: 20% 20% 20% 25%;
+    /*grid-template-columns: 30% ;*/
+    /*justify-content:flex-start;
+    align-items:flex-end;
+    
+    grid-row-gap: 10px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 6px
+
+}
+
+
+.operation .buttonOperation{
+    padding: 10px 20px;
+    background-color: aquamarine;
+    text-align: center;
+}
