@@ -19,3 +19,7 @@
     background-color: aquamarine;
     text-align: center;
 }
+.operation .buttonOperation:hover{
+    cursor: pointer;
+    background-color: rgba(27, 44, 39, 0.822);
+}

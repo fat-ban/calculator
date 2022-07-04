@@ -16,6 +16,10 @@
     background-color: aquamarine;
     text-align: center;
 }
+.number h3:hover{
+    background-color: rgb(3, 75, 51);
+    cursor: pointer;
+}
 
 .number .buttonNumb{
     padding: 30px;
