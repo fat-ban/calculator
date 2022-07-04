@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import "./components/Number/style.css";
-import "./components/Operation/style.css";
+//import "./components/Number/style.css";
+//import "./components/Operation/style.css";
 //import Number from "./components/Number";
 //import Calculator from './components/Number';
 //import Operation from "./components/Operation";
@@ -24,6 +24,7 @@ const App = () => {
     //e.preventDefault();
     //console.log(stateValue);
   //};
+console.log(data.indexOf(0))
 
   const handleGetNumber = (item) => {
     if (stateValueOperation === "") {
@@ -84,14 +85,14 @@ const refrechResult = ()=>{
       <h1>React App Calculator</h1>
 
       <div className="container">
-        <div>{result}</div>
+        <div className="input-result">{result}</div>
        
         <div className="calculator">
           {/*<Number  setStateValue={setStateValue} stateValue={stateValue}/>*/}
           <div className="number">
             {stateNumb.map((item, index) => (
               <h3
-                className={index !== 0 ? "buttonNumb" : "buttonZero"}
+                className={index === 9 ? "buttonZero" : "buttonNumb"}
                 key={index}
                 onClick={() => handleGetNumber(item)}
               >
